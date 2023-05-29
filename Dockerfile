@@ -14,4 +14,4 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Definiere den Befehl, der beim Starten des Containers ausgeführt wird
-CMD ["python", "roni.py"]
+CMD ["start python", "roni.py"]
