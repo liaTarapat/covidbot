@@ -14,4 +14,5 @@ RUN pip install --no-cache-dir -r requirements.txt
 COPY . .
 
 # Definiere den Befehl, der beim Starten des Containers ausgeführt wird
-CMD ["start python", "roni.py"]
+ENV PORT 3000
+CMD ["python", "roni.py"]
